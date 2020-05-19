@@ -18,7 +18,18 @@ class TraNavigationController: UINavigationController, UINavigationControllerDel
 		transitionController = TraTransitionController()
 		delegate = transitionController
 		
-		transitionController?.regularAnimationType = "pushAndFade.forward"
-			//["slide.up", "slide.down", "slide.inFrom.topRight", "slide.inFrom.bottomRight", "slide.inFrom.bottomLeft", "slide.inFrom.topLeft"].randomElement()
+		transitionController?.regularAnimationType = ["pushAndFade.forward", "pushAndFade.backward", "slide.up", "slide.down", "slide.inFrom.topRight", "slide.inFrom.bottomRight", "slide.inFrom.bottomLeft", "slide.inFrom.topLeft"].randomElement()
     }
+	
+	// TODO: - Remove this. This method should be overriden by whoever subclasses this navigation controller
+	override func pushViewController(_ viewController: UIViewController, animated: Bool)
+	{
+		let differentTransitionProbability = Int.random(in: 0...100)
+			
+		if differentTransitionProbability < 10
+		{
+			transitionController?.nextAnimationType = ["pushAndFade.forward", "pushAndFade.backward", "slide.up", "slide.down", "slide.inFrom.topRight", "slide.inFrom.bottomRight", "slide.inFrom.bottomLeft", "slide.inFrom.topLeft"].randomElement()
+		}
+		super.pushViewController(viewController, animated: animated)
+	}
 }
