@@ -5,6 +5,8 @@ This project was created to demonstrate how to create and use different transiti
 
 ## How to use
 
+Copy the content of the `Swappers` folder to your project. -- _Perhaps I'll figure out how to make this into a proper library in the future, but now this isn't a concern. Just copying the files is easy enough._
+
 Subclass `TraNavigationController`, then set the transition effect you wish to use.
 
 You can set the regular transition effect, which will be used in all transitions:
