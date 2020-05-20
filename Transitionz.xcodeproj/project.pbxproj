@@ -113,7 +113,7 @@
 		9C34790F2470E4A20057E242 /* Transitionz */ = {
 			isa = PBXGroup;
 			children = (
-				9C7AAE812474EE9400484ECE /* Swapers */,
+				9C7AAE812474EE9400484ECE /* Swappers */,
 				9C3479102470E4A20057E242 /* AppDelegate.swift */,
 				9C3479122470E4A20057E242 /* SceneDelegate.swift */,
 				9CD752312474F73B008ED819 /* TraNavigationController.swift */,
@@ -145,7 +145,7 @@
 			path = TransitionzUITests;
 			sourceTree = "<group>";
 		};
-		9C7AAE812474EE9400484ECE /* Swapers */ = {
+		9C7AAE812474EE9400484ECE /* Swappers */ = {
 			isa = PBXGroup;
 			children = (
 				9C3479422470EDBD0057E242 /* SWANavigationController.swift */,
@@ -154,7 +154,7 @@
 				9C34794A247177D10057E242 /* SWAPushAndFadeTransition.swift */,
 				9C34794824714C1F0057E242 /* SWADiagonalSlideTransition.swift */,
 			);
-			path = Swapers;
+			path = Swappers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
