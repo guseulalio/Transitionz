@@ -8,7 +8,7 @@
 
 import UIKit
 
-class PushAndFadeTransition: NSObject, UIViewControllerAnimatedTransitioning
+class SWAPushAndFadeTransition: NSObject, UIViewControllerAnimatedTransitioning
 {
 	var duration: TimeInterval
 	var moveForward: Bool

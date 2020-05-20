@@ -16,11 +16,12 @@
 		9C3479282470E4AA0057E242 /* TransitionzTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C3479272470E4AA0057E242 /* TransitionzTests.swift */; };
 		9C3479332470E4AA0057E242 /* TransitionzUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C3479322470E4AA0057E242 /* TransitionzUITests.swift */; };
 		9C3479412470EACE0057E242 /* Screen2Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C3479402470EACE0057E242 /* Screen2Controller.swift */; };
-		9C3479432470EDBD0057E242 /* TraNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C3479422470EDBD0057E242 /* TraNavigationController.swift */; };
-		9C3479452470F77F0057E242 /* VerticalSlideTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C3479442470F77F0057E242 /* VerticalSlideTransition.swift */; };
-		9C347947247111FC0057E242 /* TraTransitionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C347946247111FC0057E242 /* TraTransitionController.swift */; };
-		9C34794924714C1F0057E242 /* DiagonalSlideTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C34794824714C1F0057E242 /* DiagonalSlideTransition.swift */; };
-		9C34794B247177D10057E242 /* PushAndFadeTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C34794A247177D10057E242 /* PushAndFadeTransition.swift */; };
+		9C3479432470EDBD0057E242 /* SWANavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C3479422470EDBD0057E242 /* SWANavigationController.swift */; };
+		9C3479452470F77F0057E242 /* SWAVerticalSlideTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C3479442470F77F0057E242 /* SWAVerticalSlideTransition.swift */; };
+		9C347947247111FC0057E242 /* SWATransitionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C347946247111FC0057E242 /* SWATransitionController.swift */; };
+		9C34794924714C1F0057E242 /* SWADiagonalSlideTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C34794824714C1F0057E242 /* SWADiagonalSlideTransition.swift */; };
+		9C34794B247177D10057E242 /* SWAPushAndFadeTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C34794A247177D10057E242 /* SWAPushAndFadeTransition.swift */; };
+		9CD752322474F73B008ED819 /* TraNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CD752312474F73B008ED819 /* TraNavigationController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,11 +57,12 @@
 		9C3479322470E4AA0057E242 /* TransitionzUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransitionzUITests.swift; sourceTree = "<group>"; };
 		9C3479342470E4AA0057E242 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9C3479402470EACE0057E242 /* Screen2Controller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Screen2Controller.swift; sourceTree = "<group>"; };
-		9C3479422470EDBD0057E242 /* TraNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TraNavigationController.swift; sourceTree = "<group>"; };
-		9C3479442470F77F0057E242 /* VerticalSlideTransition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VerticalSlideTransition.swift; sourceTree = "<group>"; };
-		9C347946247111FC0057E242 /* TraTransitionController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TraTransitionController.swift; sourceTree = "<group>"; };
-		9C34794824714C1F0057E242 /* DiagonalSlideTransition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiagonalSlideTransition.swift; sourceTree = "<group>"; };
-		9C34794A247177D10057E242 /* PushAndFadeTransition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PushAndFadeTransition.swift; sourceTree = "<group>"; };
+		9C3479422470EDBD0057E242 /* SWANavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SWANavigationController.swift; sourceTree = "<group>"; };
+		9C3479442470F77F0057E242 /* SWAVerticalSlideTransition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SWAVerticalSlideTransition.swift; sourceTree = "<group>"; };
+		9C347946247111FC0057E242 /* SWATransitionController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SWATransitionController.swift; sourceTree = "<group>"; };
+		9C34794824714C1F0057E242 /* SWADiagonalSlideTransition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SWADiagonalSlideTransition.swift; sourceTree = "<group>"; };
+		9C34794A247177D10057E242 /* SWAPushAndFadeTransition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SWAPushAndFadeTransition.swift; sourceTree = "<group>"; };
+		9CD752312474F73B008ED819 /* TraNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TraNavigationController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,15 +113,12 @@
 		9C34790F2470E4A20057E242 /* Transitionz */ = {
 			isa = PBXGroup;
 			children = (
+				9C7AAE812474EE9400484ECE /* Swapers */,
 				9C3479102470E4A20057E242 /* AppDelegate.swift */,
 				9C3479122470E4A20057E242 /* SceneDelegate.swift */,
+				9CD752312474F73B008ED819 /* TraNavigationController.swift */,
 				9C3479142470E4A20057E242 /* Screen1Controller.swift */,
 				9C3479402470EACE0057E242 /* Screen2Controller.swift */,
-				9C3479422470EDBD0057E242 /* TraNavigationController.swift */,
-				9C347946247111FC0057E242 /* TraTransitionController.swift */,
-				9C3479442470F77F0057E242 /* VerticalSlideTransition.swift */,
-				9C34794A247177D10057E242 /* PushAndFadeTransition.swift */,
-				9C34794824714C1F0057E242 /* DiagonalSlideTransition.swift */,
 				9C3479162470E4A20057E242 /* Main.storyboard */,
 				9C3479192470E4A90057E242 /* Assets.xcassets */,
 				9C34791B2470E4A90057E242 /* LaunchScreen.storyboard */,
@@ -144,6 +143,18 @@
 				9C3479342470E4AA0057E242 /* Info.plist */,
 			);
 			path = TransitionzUITests;
+			sourceTree = "<group>";
+		};
+		9C7AAE812474EE9400484ECE /* Swapers */ = {
+			isa = PBXGroup;
+			children = (
+				9C3479422470EDBD0057E242 /* SWANavigationController.swift */,
+				9C347946247111FC0057E242 /* SWATransitionController.swift */,
+				9C3479442470F77F0057E242 /* SWAVerticalSlideTransition.swift */,
+				9C34794A247177D10057E242 /* SWAPushAndFadeTransition.swift */,
+				9C34794824714C1F0057E242 /* SWADiagonalSlideTransition.swift */,
+			);
+			path = Swapers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -278,14 +289,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				9C3479412470EACE0057E242 /* Screen2Controller.swift in Sources */,
-				9C347947247111FC0057E242 /* TraTransitionController.swift in Sources */,
-				9C3479432470EDBD0057E242 /* TraNavigationController.swift in Sources */,
-				9C3479452470F77F0057E242 /* VerticalSlideTransition.swift in Sources */,
+				9CD752322474F73B008ED819 /* TraNavigationController.swift in Sources */,
+				9C347947247111FC0057E242 /* SWATransitionController.swift in Sources */,
+				9C3479432470EDBD0057E242 /* SWANavigationController.swift in Sources */,
+				9C3479452470F77F0057E242 /* SWAVerticalSlideTransition.swift in Sources */,
 				9C3479152470E4A20057E242 /* Screen1Controller.swift in Sources */,
-				9C34794B247177D10057E242 /* PushAndFadeTransition.swift in Sources */,
+				9C34794B247177D10057E242 /* SWAPushAndFadeTransition.swift in Sources */,
 				9C3479112470E4A20057E242 /* AppDelegate.swift in Sources */,
 				9C3479132470E4A20057E242 /* SceneDelegate.swift in Sources */,
-				9C34794924714C1F0057E242 /* DiagonalSlideTransition.swift in Sources */,
+				9C34794924714C1F0057E242 /* SWADiagonalSlideTransition.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -8,7 +8,7 @@
 
 import UIKit
 
-class DiagonalSlideTransition: NSObject, UIViewControllerAnimatedTransitioning
+class SWADiagonalSlideTransition: NSObject, UIViewControllerAnimatedTransitioning
 {
 	enum Direction { case inFrom, outTo }
 	

@@ -8,7 +8,7 @@
 
 import UIKit
 
-class VerticalSlideTransition: NSObject, UIViewControllerAnimatedTransitioning
+class SWAVerticalSlideTransition: NSObject, UIViewControllerAnimatedTransitioning
 {
 	var duration: TimeInterval
 	var upwards: Bool
